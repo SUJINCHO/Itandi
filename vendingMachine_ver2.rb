@@ -33,6 +33,7 @@ def main
                     coin == "500" or coin == "1000"
                     balance += coin.to_i
                     puts "投入金額 : " + balance.to_s
+                    puts "投入終了は‘enter’keyを押してください"
                 else 
                     if coin == ""
                         puts "投入金額の総計 : " + balance.to_s
@@ -66,6 +67,7 @@ def main
                             else
                                 # ジュースを選択する
                                 puts "ジュース選択"
+                                puts "購入終了は‘enter’keyを押してください"
                                 selection = gets.chomp
                             end
 
